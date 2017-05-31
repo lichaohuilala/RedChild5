@@ -9,7 +9,6 @@
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:padding="5dp"
-        android:src="@mipmap/btn_back"
         android:layout_centerHorizontal="true"
         app:srcCompat="@mipmap/img_tab_groupbuy"
         android:id="@+id/im_classify_item_right" />
