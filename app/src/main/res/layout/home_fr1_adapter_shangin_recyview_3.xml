@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="wrap_content">
+<ImageView
+    android:id="@+id/img1_fr1_adap_shanxin_review3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+<LinearLayout
+    style="@style/shangin_liner_3">
+    <ImageView
+        android:id="@+id/img2_fr1_adap_shanxin_review3"
+      style="@style/shangxin_img_3"/>
+    <ImageView
+        android:id="@+id/img3_fr1_adap_shanxin_review3"
+        style="@style/shangxin_img_3"/>
+</LinearLayout>
+    <LinearLayout
+        style="@style/shangin_liner_3">
+        <ImageView
+            android:id="@+id/img4_fr1_adap_shanxin_review3"
+            style="@style/shangxin_img_3"/>
+        <ImageView
+            android:id="@+id/img5_fr1_adap_shanxin_review3"
+            style="@style/shangxin_img_3"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/shangin_liner_3">
+        <ImageView
+            android:id="@+id/img6_fr1_adap_shanxin_review3"
+            style="@style/shangxin_img_3"/>
+        <ImageView
+            android:id="@+id/img7_fr1_adap_shanxin_review3"
+            style="@style/shangxin_img_3"/>
+    </LinearLayout>
+</LinearLayout>

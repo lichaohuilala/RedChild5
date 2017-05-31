@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+       style="@style/shopcar_match"
+       android:background="@color/pub_color_fourteen"
+        >
+      <ImageView
+          android:id="@+id/shopcar_fragment_back"
+           style="@style/shopcar_wrap_content"
+          android:layout_alignParentLeft="true"
+          android:background="@mipmap/topbar_up"
+          android:layout_centerVertical="true"
+          />
+       <TextView
+           android:id="@+id/shopcart_fragment_title"
+           style="@style/shopcar_wrap_content"
+           android:text="@string/shop_shop"
+           android:textSize="18dp"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="10dp"
+           />
+
+        <TextView
+            android:id="@+id/shopcart_fragment_compile"
+           style="@style/shopcar_wrap_content"
+            android:text="@string/shop_compile"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+<ExpandableListView
+    android:id="@+id/shopcart_fragment_exand"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:childIndicator="@null"
+    android:groupIndicator="@null">
+
+</ExpandableListView>
+
+    <LinearLayout
+       style="@style/shopcar_match"
+       android:background="@color/white"
+        android:orientation="horizontal">
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:orientation="horizontal">
+           <CheckBox
+               android:id="@+id/shopcart_fragment_cb_all"
+              style="@style/shopcar_wrap_content"
+              android:layout_gravity="center_vertical"
+              android:layout_marginLeft="10dp"
+               android:button="@null"
+              android:background="@drawable/shopping_cart_checkbox"/>
+           <TextView
+
+               style="@style/shopcar_wrap_content"
+               android:text="@string/shop_all"
+               android:layout_marginLeft="10dp"
+               android:layout_gravity="center_vertical"
+               android:textSize="18sp"/>
+       </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    >
+                  <TextView
+                    style="@style/shopcar_wrap_content"
+                      android:text="@string/shop_tatal"
+                      android:textSize="16sp"/>
+                    <TextView
+                        android:id="@+id/shopcart_fragment_tv_tatal"
+                        style="@style/shopcar_wrap_content"
+                        android:text="@string/shop_text"
+                        android:textSize="16sp"/>
+                </LinearLayout>
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/shop_freight"
+                    android:textSize="13sp"
+                    android:gravity="center_horizontal"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/shopcart_fragment_tv_close"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/red"
+                android:text="@string/shop_close"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp">
+
+
+            </TextView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bawei.redchild.HomeActivity">
+
+    <RelativeLayout
+        android:layout_above="@+id/rg_home_show"
+        android:id="@+id/rl_home_show_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></RelativeLayout>
+
+
+    <RadioGroup
+        android:layout_alignParentBottom="true"
+        android:id="@+id/rg_home_show"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_home_home_show"
+            style="@style/MainButtonStyle"
+            android:background="@drawable/tab_home"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/rb_home_classify_show"
+            style="@style/MainButtonStyle"
+            android:background="@drawable/tab_category"
+            />
+        <RadioButton
+            android:id="@+id/rb_home_groupon_show"
+            style="@style/MainButtonStyle"
+            android:background="@mipmap/tab_myebuy_pressed"
+            />
+        <RadioButton
+            android:id="@+id/rb_home_shoppingcart_show"
+            style="@style/MainButtonStyle"
+            android:background="@drawable/tab_shopping"
+            />
+        <RadioButton
+            android:id="@+id/rb_home_me_show"
+            style="@style/MainButtonStyle"
+            android:background="@drawable/tab_myebuy"
+            />
+    </RadioGroup>
+
+<ImageView
+    android:id="@+id/iv_home_groupon"
+    android:background="@mipmap/img_tab_groupbuy"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>

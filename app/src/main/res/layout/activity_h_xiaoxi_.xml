@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_h_xiaoxi_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.bawei.redchild.home.home_activity.H_xiaoxi_Activity">
+<ListView
+    android:id="@+id/xiaoxi_listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@null"
+    android:dividerHeight="5dp"
+    android:scrollbarStyle="outsideOverlay"
+    ></ListView>
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <EditText
+          android:id="@+id/xiaoxi_ed_xinxi"
+          android:layout_width="0dp"
+
+          android:layout_weight="6"
+          android:layout_height="wrap_content"/>
+      <Button
+          android:id="@+id/xiaoxi_but_fasong"
+          android:layout_width="0dp"
+          android:layout_weight="2"
+          android:text="发送"
+          android:layout_height="wrap_content"/>
+  </LinearLayout>
+</RelativeLayout>
